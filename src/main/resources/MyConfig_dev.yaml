@@ -1,0 +1,19 @@
+http:
+  port: "8081"
+  host: "localhost"
+  
+db:
+  sfc:
+    Role     : "ACCOUNTADMIN"
+    Username : "AvulaShruthi"
+    Password : "Shruthi@143"
+    WereHouse: "COMPUTE_WH"
+    schema   : "BFS"
+    Database : "VITECH"
+    account  : "jz45615.central-india.azure"
+email:
+ config:
+  host: "smtp.gmail.com"
+  port: "587"
+  user: "avulavamshi76@gmail.com"
+  password: "zolxuwksaykxgfcq"
