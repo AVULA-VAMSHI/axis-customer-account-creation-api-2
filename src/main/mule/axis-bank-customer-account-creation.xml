@@ -153,7 +153,7 @@ output application/json
 				<email:content><![CDATA[#["Congratulations your account created successfully with account number 12345 with axis bank"]]]></email:content>
 			</email:body>
 		</email:send>
-		<logger level="INFO" doc:name="Logger" doc:id="76ccfb90-43b9-40df-b8d2-1e4cdf5a906a" message="-------------email sent successfully---------------------"/>
+		<logger level="INFO" doc:name="Logger" doc:id="76ccfb90-43b9-40df-b8d2-1e4cdf5a906a" message="-------------email sent successfully"/>
 	</flow>
 	<flow name="post:\CreatAccount:application\json:axis-bank-customer-account-creation-config">
         <logger level="INFO" doc:name="start logger_AccountCreation" doc:id="ca113fa0-2183-4f69-adb5-53a64bd90d24" message="start logger_AccountCreation flow" />
